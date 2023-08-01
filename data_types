@@ -1,0 +1,6 @@
+string
+num - int,float,complex
+sequence - list,tuples
+map - dictionary
+set - set,frozenset
+boolean - true ,false
