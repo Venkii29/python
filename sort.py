@@ -5,7 +5,7 @@ for i in range (len_list):
     list.append(element)
 print("unsorted list",list)
 for i in range (len_list):
-    for j in range (i+1,len_list):
-        if list[i] > list[j]:
-            list[i],list[j]=list[j],list[i]
+    for j in range (len_list):
+        if list[i+j] > list[j+1]:
+            list[i+j],list[j+1]=list[j+1],list[i+j]
 print("sorted list",list)
